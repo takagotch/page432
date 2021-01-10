@@ -1,0 +1,26 @@
+{
+  "name": "job-scanner",
+  "version": "1.0.0",
+  "description": "This is a simple node application that fetches job listings from different sources, saves the entries to a json file and sends email notifications for entries that match custom keywords.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "app": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainner/job-scanner.git"
+  },
+  "keywords": [],
+  "author": "Rainner Lins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rainner/job-scanner/issues"
+  },
+  "homepage": "https://github.com/rainner/job-scanner#readme",
+  "dependencies": {
+    "form-data": "^3.0.0",
+    "jsdom": "^16.2.2",
+    "node-fetch": "^2.6.0"
+  }
+}
